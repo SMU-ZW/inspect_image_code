@@ -1,0 +1,8 @@
+[2025-07-18 02:08:31,449][lightning_fabric.utilities.seed][INFO] - [rank: 5] Global seed set to 6
+[2025-07-18 02:08:31,456][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpbepk9vzs
+[2025-07-18 02:08:31,456][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpbepk9vzs/_remote_module_non_sriptable.py
+[2025-07-18 02:09:06,778][lightning_fabric.utilities.seed][INFO] - [rank: 5] Global seed set to 6
+[2025-07-18 02:09:06,779][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/6
+[2025-07-18 02:09:06,780][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 5
+[2025-07-18 02:09:07,195][torch.distributed.distributed_c10d][INFO] - Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 6 nodes.
+[2025-07-18 02:09:21,569][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]

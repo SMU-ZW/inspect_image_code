@@ -1,0 +1,31 @@
+[2025-06-30 23:22:38,785][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 6
+[2025-06-30 23:22:38,794][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpv7z6rjtc
+[2025-06-30 23:22:38,794][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpv7z6rjtc/_remote_module_non_sriptable.py
+[2025-06-30 23:22:44,253][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnetv2_101x3_bit.goog_in21k)
+[2025-06-30 23:22:44,369][timm.models._hub][INFO] - [timm/resnetv2_101x3_bit.goog_in21k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-06-30 23:22:44,787][pytorch_lightning.utilities.rank_zero][INFO] - Using bfloat16 Automatic Mixed Precision (AMP)
+[2025-06-30 23:22:44,816][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: False, used: False
+[2025-06-30 23:22:44,816][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-06-30 23:22:44,816][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-06-30 23:22:44,816][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-06-30 23:22:44,817][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
+[2025-06-30 23:22:44,817][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+[2025-06-30 23:22:44,818][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 6
+[2025-06-30 23:22:44,819][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+[2025-06-30 23:22:44,825][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2025-06-30 23:22:44,825][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+[2025-06-30 23:22:44,825][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=gloo
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-06-30 23:22:45,140][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name  | Type              | Params
+--------------------------------------------
+0 | model | Model2D           | 381 M 
+1 | loss  | BCEWithLogitsLoss | 0     
+--------------------------------------------
+381 M     Trainable params
+0         Non-trainable params
+381 M     Total params
+1,527.184 Total estimated model params size (MB)

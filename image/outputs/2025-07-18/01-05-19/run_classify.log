@@ -1,0 +1,30 @@
+[2025-07-18 01:05:22,819][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 01:05:22,829][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp6qwo5a0a
+[2025-07-18 01:05:22,829][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp6qwo5a0a/_remote_module_non_sriptable.py
+[2025-07-18 01:05:28,843][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-07-18 01:05:28,844][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-18 01:05:28,844][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-18 01:05:28,844][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-18 01:05:28,844][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
+[2025-07-18 01:05:28,844][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+[2025-07-18 01:05:28,845][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 01:05:28,846][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+[2025-07-18 01:05:31,109][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2025-07-18 01:05:31,110][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+[2025-07-18 01:05:31,110][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-07-18 01:05:40,396][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]
+[2025-07-18 01:05:40,472][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name  | Type              | Params
+--------------------------------------------
+0 | model | Model1D           | 4.8 M 
+1 | loss  | BCEWithLogitsLoss | 0     
+--------------------------------------------
+4.8 M     Trainable params
+0         Non-trainable params
+4.8 M     Total params
+19.280    Total estimated model params size (MB)
+[2025-07-18 01:05:41,070][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: No training batches.

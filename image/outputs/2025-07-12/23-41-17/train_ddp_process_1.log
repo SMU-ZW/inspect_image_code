@@ -1,0 +1,12 @@
+[2025-07-12 23:41:30,870][lightning_fabric.utilities.seed][INFO] - [rank: 1] Global seed set to 6
+[2025-07-12 23:41:30,882][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp_da0xhsm
+[2025-07-12 23:41:30,882][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp_da0xhsm/_remote_module_non_sriptable.py
+[2025-07-12 23:41:37,035][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnetv2_101x3_bit.goog_in21k)
+[2025-07-12 23:41:37,219][timm.models._hub][INFO] - [timm/resnetv2_101x3_bit.goog_in21k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 23:41:43,791][lightning_fabric.utilities.seed][INFO] - [rank: 1] Global seed set to 6
+[2025-07-12 23:41:43,793][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/6
+[2025-07-12 23:41:44,273][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2025-07-12 23:41:44,283][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 6 nodes.
+[2025-07-12 23:41:51,923][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]
+[2025-07-12 23:42:01,725][root][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2025-07-12 23:52:22,182][lightning_fabric.loggers.csv_logs][WARNING] - Missing logger folder: /projects/eclarson/stems/STEMC/EHR/INSPECT/RSNA/data/image_modality/outputs/classify_pe_present_on_image_2025-07-13_04:41:30/lightning_logs

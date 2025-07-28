@@ -1,0 +1,12 @@
+[2025-07-18 23:10:07,213][lightning_fabric.utilities.seed][INFO] - [rank: 2] Global seed set to 0
+[2025-07-18 23:10:07,224][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpvghgluys
+[2025-07-18 23:10:07,224][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpvghgluys/_remote_module_non_sriptable.py
+[2025-07-18 23:10:13,519][lightning_fabric.utilities.seed][INFO] - [rank: 2] Global seed set to 0
+[2025-07-18 23:10:13,521][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/6
+[2025-07-18 23:10:13,904][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 2
+[2025-07-18 23:10:14,470][torch.distributed.distributed_c10d][INFO] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 6 nodes.
+[2025-07-18 23:10:22,222][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]
+[2025-07-18 23:10:30,140][root][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2025-07-18 23:10:44,269][lightning_fabric.loggers.csv_logs][WARNING] - Missing logger folder: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/data/image_modality/outputs/classify_12_month_PH_2025-07-19_04:10:07/lightning_logs
+[2025-07-18 23:24:27,585][lightning_fabric.utilities.seed][INFO] - [rank: 2] Global seed set to 0
+[2025-07-18 23:24:28,028][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]

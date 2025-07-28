@@ -1,0 +1,24 @@
+type: rsna
+csv_path: '/projects/eclarson/stems/STEMC/EHR/INSPECT/RSNA/train_with_split.csv'
+sample_frac: 1.0
+dicom_dir: /projects/eclarson/stems/STEMC/EHR/INSPECT/RSNA/train
+output_dir: /projects/eclarson/stems/STEMC/EHR/INSPECT/RSNA/rsna_features
+test_split: all
+target:  'pe_present_on_image'
+contextualize_slice: False # To test 
+sample_strategy: fix
+num_slices: 150
+feature_size: 768
+weighted_sample: true
+batch_size: 32
+
+transform:
+    channels: repeat 
+    resize_size: 256
+    crop_size: 224
+    final_size: 224
+
+pretrain_args:
+  model_type: resnetv2_101_ct
+  input_size: 256
+  channel_type: window
