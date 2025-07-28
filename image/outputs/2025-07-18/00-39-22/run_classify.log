@@ -1,0 +1,3 @@
+[2025-07-18 00:39:25,254][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 00:39:25,264][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpkdz7_co5
+[2025-07-18 00:39:25,265][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpkdz7_co5/_remote_module_non_sriptable.py

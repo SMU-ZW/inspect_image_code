@@ -1,0 +1,10 @@
+[2025-07-12 01:45:30,673][lightning_fabric.utilities.seed][INFO] - [rank: 5] Global seed set to 6
+[2025-07-12 01:45:30,682][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpl9jsld0q
+[2025-07-12 01:45:30,683][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpl9jsld0q/_remote_module_non_sriptable.py
+[2025-07-12 01:45:36,164][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnetv2_101x3_bit.goog_in21k)
+[2025-07-12 01:45:36,238][timm.models._hub][INFO] - [timm/resnetv2_101x3_bit.goog_in21k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+[2025-07-12 01:45:41,064][lightning_fabric.utilities.seed][INFO] - [rank: 5] Global seed set to 6
+[2025-07-12 01:45:41,066][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 5, MEMBER: 6/6
+[2025-07-12 01:45:41,248][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 5
+[2025-07-12 01:45:44,376][torch.distributed.distributed_c10d][INFO] - Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 6 nodes.
+[2025-07-12 01:46:05,501][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 5 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]

@@ -1,0 +1,5 @@
+[2025-07-07 17:15:55,074][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 6
+[2025-07-07 17:15:55,083][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpnkzlejxq
+[2025-07-07 17:15:55,084][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpnkzlejxq/_remote_module_non_sriptable.py
+[2025-07-07 17:16:00,686][timm.models._builder][INFO] - Loading pretrained weights from Hugging Face hub (timm/resnetv2_101x3_bit.goog_in21k)
+[2025-07-07 17:16:00,808][timm.models._hub][INFO] - [timm/resnetv2_101x3_bit.goog_in21k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.

@@ -1,0 +1,19 @@
+[2025-07-18 01:10:05,137][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 01:10:05,148][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpf1sz7ivo
+[2025-07-18 01:10:05,148][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpf1sz7ivo/_remote_module_non_sriptable.py
+[2025-07-18 01:10:11,141][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-07-18 01:10:11,141][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-18 01:10:11,141][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-18 01:10:11,142][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-18 01:10:11,142][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
+[2025-07-18 01:10:11,142][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+[2025-07-18 01:10:11,240][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 01:10:11,242][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/6
+[2025-07-18 01:10:23,798][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2025-07-18 01:10:23,798][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 6 nodes.
+[2025-07-18 01:10:23,798][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 6 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-07-18 01:10:38,162][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]

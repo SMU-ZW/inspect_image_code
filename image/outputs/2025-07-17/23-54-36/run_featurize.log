@@ -1,0 +1,7 @@
+[2025-07-17 23:54:39,203][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 6
+[2025-07-17 23:54:39,212][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp78vgb2ve
+[2025-07-17 23:54:39,212][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp78vgb2ve/_remote_module_non_sriptable.py
+[2025-07-17 23:55:01,197][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-07-17 23:55:01,197][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-17 23:55:01,198][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-17 23:55:01,198][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs

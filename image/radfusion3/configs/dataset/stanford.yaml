@@ -1,0 +1,20 @@
+type: 2d
+# csv_path: '/share/pi/nigam/projects/zphuo/data/PE/inspect/note/Final_metadata_sample_20250303.csv'
+# split_path: '/share/pi/nigam/projects/zphuo/data/PE/inspect/note/Final_splits_sample_20250303.csv'
+# metadata_path: '/share/pi/nigam/projects/zphuo/data/PE/inspect/note/Final_metadata.csv'
+metadata_path: '/projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/study_mapping_20250611.tsv'
+csv_path: '/projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/study_mapping_20250611.tsv'
+split_path: '/projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/splits_20250611.tsv'
+sample_frac: 1.0
+# dicom_dir: /local-scratch/nigam/datasets/PE/inspect/anon_nii_gz/AIMI_ct_all/
+dicom_dir: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/CTPA
+output_dir: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/pre_features
+
+batch_size: 32
+weighted_sample: false
+
+transform:
+    channels: window
+    resize_size: 256
+    crop_size: 224
+    final_size: 224

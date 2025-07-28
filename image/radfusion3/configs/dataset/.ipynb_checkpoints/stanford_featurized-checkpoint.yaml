@@ -1,0 +1,24 @@
+type: 1d
+# csv_path: /share/pi/nigam/projects/zphuo/data/PE/inspect/note/Final_metadata_sample_20250303.csv
+# label_csv: /share/pi/nigam/projects/zphuo/data/PE/inspect/note/Final_labels_sample_20250303.csv
+# split_csv: /share/pi/nigam/projects/zphuo/data/PE/inspect/note/Final_splits_sample_20250303.csv
+csv_path: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/study_mapping_20250611.tsv
+label_csv: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/labels_20250611.tsv
+split_csv: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/splits_20250611.tsv
+sample_frac: 1.0
+# dicom_dir:  /share/pi/nigam/projects/zphuo/data/PE/inspect/anon_nii_gz/AIMI_ct_all
+dicom_dir:  /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/CTPA
+target: 12_month_mortality
+contextualize_slice: False # To test
+sample_strategy: fix
+num_slices: 250
+feature_size: 768
+weighted_sample: true
+batch_size: 32
+# hdf5_path: /share/pi/nigam/projects/zphuo/data/PE/inspect/image_modality/anon_pe_features_full_new/features.hdf5
+hdf5_path: /projects/eclarson/stems/STEMC/EHR/INSPECT/IMAGE/inpsect/inspectamultimodaldatasetforpulmonaryembolismdiagnosisandprog-3/full/features.hdf5
+
+pretrain_args:
+  model_type: resnetv2_101_ct
+  input_size: 256
+  channel_type: window

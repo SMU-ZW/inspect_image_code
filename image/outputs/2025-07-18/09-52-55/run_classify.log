@@ -1,0 +1,35 @@
+[2025-07-18 09:52:58,809][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 09:52:58,820][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpypm_oglh
+[2025-07-18 09:52:58,820][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpypm_oglh/_remote_module_non_sriptable.py
+[2025-07-18 09:53:04,884][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True (cuda), used: True
+[2025-07-18 09:53:04,884][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-18 09:53:04,884][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-18 09:53:04,884][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-18 09:53:04,885][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(limit_val_batches=1.0)` was configured so 100% of the batches will be used..
+[2025-07-18 09:53:04,885][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+[2025-07-18 09:53:04,985][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 09:53:04,986][lightning_fabric.utilities.distributed][INFO] - Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/6
+[2025-07-18 09:53:17,857][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2025-07-18 09:53:17,897][torch.distributed.distributed_c10d][INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 6 nodes.
+[2025-07-18 09:53:17,897][pytorch_lightning.utilities.rank_zero][INFO] - ----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 6 processes
+----------------------------------------------------------------------------------------------------
+
+[2025-07-18 09:53:32,891][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]
+[2025-07-18 09:53:33,007][pytorch_lightning.callbacks.model_summary][INFO] - 
+  | Name  | Type              | Params
+--------------------------------------------
+0 | model | Model1D           | 6.4 M 
+1 | loss  | BCEWithLogitsLoss | 0     
+--------------------------------------------
+6.4 M     Trainable params
+0         Non-trainable params
+6.4 M     Total params
+25.703    Total estimated model params size (MB)
+[2025-07-18 09:53:42,669][root][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2025-07-18 11:13:43,348][pytorch_lightning.utilities.rank_zero][INFO] - `Trainer.fit` stopped: `max_epochs=50` reached.
+[2025-07-18 11:13:43,827][lightning_fabric.utilities.seed][INFO] - [rank: 0] Global seed set to 0
+[2025-07-18 11:13:43,829][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at /projects/eclarson/stems/STEMC/EHR/INSPECT/RSNA/data/image_modality/outputs/classify_1_month_readmission_2025-07-18_14:52:58/epoch=0-val/mean_auroc=0.000.ckpt
+[2025-07-18 11:13:44,444][pytorch_lightning.accelerators.cuda][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3,4,5]
+[2025-07-18 11:13:44,642][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from the checkpoint at /projects/eclarson/stems/STEMC/EHR/INSPECT/RSNA/data/image_modality/outputs/classify_1_month_readmission_2025-07-18_14:52:58/epoch=0-val/mean_auroc=0.000.ckpt
